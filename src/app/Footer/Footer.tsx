@@ -5,7 +5,7 @@ import FooterCopy from './FooterCopy'
 
 export default function Footer() {
   return (
-    <div className='flex justify-between items-center px-2'>
+    <div className='flex justify-space items-center px-2'>
       <FooterLogo />
       <FooterContent />
       <FooterCopy />
