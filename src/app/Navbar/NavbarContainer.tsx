@@ -10,7 +10,7 @@ function NavbarContainer() {
       <div className='flex justify-between items-center'>
         <NavbarLogo />
         <NavbarContent />
-        {/* <Testing /> */}
+        <Testing />
       </div>
   )
 }
