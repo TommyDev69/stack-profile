@@ -10,7 +10,7 @@ const NavbarToggle:FC<myDropdownMenu> = ({ isOpenMenu }) => {
         <div
         className={`${
           isOpenMenu ? "block" : "hidden"
-        } absolute w-[98.1%] left-0 right-0 top-full text-2xl mx-auto flex flex-col items-start py-8 px-6 text-white space-y-6 font-bold bg-green-600 sm:self-center drop-shadow-md transition-all duration-300 ease-in-out transform ${
+        } absolute w-[98.1%] left-0 right-0 top-full text-2xl py-10 mx-auto flex flex-col items-startpy-8 px-6 text-white space-y-6 font-bold sm:self-center drop-shadow-md shadow-inner shadow-white transition-all duration-300 ease-in-out transform ${
           isOpenMenu ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >
@@ -18,7 +18,7 @@ const NavbarToggle:FC<myDropdownMenu> = ({ isOpenMenu }) => {
                 <a 
                     key={index}
                     href={`#${navCon.replace(/\s+/g, '-').toLowerCase()}`} 
-                    className="capitalize hover:text-green-400 transition-colors duration-300"
+                    className="capitalize hover:bg-green-400 w-screen hover:py-4 hover:px-4 transition-colors duration-300 "
                     aria-label={`Navigate to ${navCon}`}
                 >
                     {navCon}

@@ -7,7 +7,7 @@ import Testing from './Testing';
 
 function NavbarContainer() {
   return (
-      <div className='flex justify-between items-center bg-black'>
+      <div className='flex justify-between items-center'>
         <NavbarLogo />
         <NavbarContent />
         {/* <Testing /> */}
