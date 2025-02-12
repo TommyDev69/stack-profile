@@ -14,7 +14,7 @@ const NavbarContent = () => {
 
   return (
     <>
-      <div className="md:flex hidden capitalize md:text-[23px] space-x-5 items-center text-white py-8">
+      <div className="md:flex hidden capitalize md:text-[22px] space-x-5 items-center text-white py-8">
         <a href="#home" className="font-bold">{content[0]}</a>
         <a href="#service">{content[1]}</a>
         <a href="#our-project">{content[2]}</a>
