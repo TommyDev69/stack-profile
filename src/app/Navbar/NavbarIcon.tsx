@@ -11,10 +11,10 @@ const NavbarIcon = () => {
   };
 
   return (
-    <div className="w-sx24 md:hidden block w-[f34%] fh-[90px]">
+    <div className="w-sx24 md:hidden block">
       <FontAwesomeIcon 
         icon={isOpenMenu ? faTimes : faBars} 
-        className="text-green-400 w-16 h-16 " 
+        className="text-green-400 w-12 h-12 " 
         onClick={setMenuDropdown}
       />
       
