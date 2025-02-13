@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const FooterContent = () => {
-    const [Footer_Nav, Setfooter] = useState(["support", "privacy policy", "terms and conditions"])
+    const [Footer_Nav, Setfooter] = useState(["support", "policy", "terms & conditions"])
     let result = Footer_Nav.map((list, index) =>(
         <p key={index} className="capitalize md:text-[14px] text-[6px] text-white">{list}</p>
     ))
