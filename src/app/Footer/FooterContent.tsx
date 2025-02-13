@@ -2,12 +2,12 @@
 import { useState } from "react";
 
 const FooterContent = () => {
-    const [Footer_Nav, Setfooter] = useState(["support", "privacy policy", "Terms and Conditions"])
+    const [Footer_Nav, Setfooter] = useState(["support", "privacy policy", "terms and conditions"])
     let result = Footer_Nav.map((list, index) =>(
-        <p key={index} className="md:text-[16px] text-[8px] text-white">{list}</p>
+        <p key={index} className="capitalize md:text-[20px] text-[6px] text-white">{list}</p>
     ))
     return (  
-        <div className="flex  justify-center space-x-6 items-center">
+        <div className="flex  justify-start w-[50%] space-x-4 items-center">
             {result}
         </div>
     );
