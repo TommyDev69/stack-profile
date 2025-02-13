@@ -4,7 +4,7 @@ const FooterLogo = () => {
  let Brand = Logo
     return ( 
         <div className="w-[30%] pl-12 bg-black flex flex-col items-center">
-            <Image src={Brand} alt='logo' className="wv-[35%] md:w-[40%] mr-[90%]" />
+            <Image src={Brand} alt='logo' className=" md:w-[30%] mr-[90%]" />
         </div>
      );
 }
