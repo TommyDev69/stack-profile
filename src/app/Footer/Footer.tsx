@@ -6,7 +6,7 @@ import FooterCom from './FooterCom'
 
 export default function Footer() {
   return (
-    <div className='flex bg-blue-700 justify-space items-center mt-10 px-2'>
+    <div className='flex justify-space items-center mt-10 px-2'>
       <FooterLogo />
      <FooterCom />
     </div>
