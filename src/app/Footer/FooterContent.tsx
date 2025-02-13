@@ -7,7 +7,7 @@ const FooterContent = () => {
         <p key={index} className="md:text-xl text-[8px] text-white">{list}</p>
     ))
     return (  
-        <div className="flex w-[45%] space-x-10 items-center">
+        <div className="flex w-[45w%] justify-center space-x-10 items-center">
             {result}
         </div>
     );

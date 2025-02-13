@@ -3,8 +3,8 @@ import Logo from '../Image/sunnevian logo (1).svg'
 const FooterLogo = () => {
  let Brand = Logo
     return ( 
-        <div className="w-[10%] flex flex-col items-center">
-            <Image src={Brand} alt='logo' />
+        <div className="w-1/3 bg-black flex flex-col items-center">
+            <Image src={Brand} alt='logo' className="w-[10%] mr-[90%]" />
         </div>
      );
 }

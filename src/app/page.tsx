@@ -6,6 +6,8 @@ import MainHero from "./Hero_Section/MainHero";
 import Navbar from "./Navbar/Navbar";
 import Main from "./Project_work/Main";
 import Department from "./Service_project/Department";
+import Service from "./Service_render/Service";
+
 
 // import NavbarToggle from "./Navbar/NavbarToggle";
 
@@ -20,6 +22,7 @@ function Home() {
       <Department />
       <MainContact />
       <Footer />
+      {/* <Service /> */}
     </div>
   );
 }
