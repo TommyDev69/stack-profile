@@ -11,7 +11,7 @@ const Department = () => {
       Image: require("../Image/Icon (1).png"),
       heading: "Development",
       content: "Create a platform with the best and coolest quality from us.",
-      paddingTop:'74px'
+      paddingTop:'80px'
     },
     {
       id: 2,
