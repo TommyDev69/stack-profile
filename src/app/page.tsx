@@ -4,12 +4,10 @@ import MainFeatures from "./feature_section/MainFeatures";
 import Footer from "./Footer/Footer";
 import MainHero from "./Hero_Section/MainHero";
 import Navbar from "./Navbar/Navbar";
+import NavbarContent from "./Navbar/NavbarContent";
 import Main from "./Project_work/Main";
 import Department from "./Service_project/Department";
-import Service from "./Service_render/Service";
-
-
-// import NavbarToggle from "./Navbar/NavbarToggle";
+// import Service from "./Service_render/Service";
 
 function Home() {
   return (
@@ -23,6 +21,7 @@ function Home() {
       <MainContact />
       <Footer />
       {/* <Service /> */}
+      
     </div>
   );
 }

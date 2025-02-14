@@ -11,9 +11,9 @@ const Main = () => {
     const heading_3 = 'education & learning sectors';
 
     const [Project, setProject] = useState([
-        { id: 1, image: require( "../Image/work_2.avif")},
+        { id: 1, image: require( "../Image/work_2.png")},
         { id: 2, image: require("../Image/work_1.png") },
-        { id: 3, image: require("../Image/work_3.avif")},
+        { id: 3, image: require("../Image/work_3.png")},
         { id: 4, image: require("../Image/work_5.jpg" ) },
         { id: 5, image: require("../Image/work_4.png" )},
         { id: 6, image: require("../Image/work_6.jpg" ), paddingTop:'45%'},

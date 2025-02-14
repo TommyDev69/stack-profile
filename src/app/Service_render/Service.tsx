@@ -1,9 +1,13 @@
 import React from 'react'
 
+
+import Serv_Process from './Serv_Process';
+
 function Service() {
   return (
     <div>
-      <Service />
+       <Serv_Process />
+ 
     </div>
   )
 }

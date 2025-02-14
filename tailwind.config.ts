@@ -17,6 +17,9 @@ export default {
       backgroundImage: {
         'blueBlack': 'linear-gradient(239deg, rgba(1,0,36,1) 41%, rgba(7,5,62,1) 52%, rgba(1,0,36,1) 64%)',
       },
+      fontFamily:{
+        writing: "Montserrat, Work Sans, serif",
+      }
     },
   },
   plugins: [],

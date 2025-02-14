@@ -15,15 +15,12 @@ interface Material {
   
 }
 
-const Strenght:React.FC<Material> = ({Tool}) => {
+const   Serve_content:React.FC<Material> = ({Tool}) => {
     return (  
         <div className="space-x-4 space-y-14 grid grid-cols-3 md:grid-cols-3 ">
                 {Tool.map((subj) => (
-               <div
-               key={subj.id}
-               className="px-4 py-10 md:px-8 md:py-10"
-               style={{ paddingTop: subj.paddingTop }} // Apply dynamic paddingTop
-             >
+                <div className=" md:px-8 px-0  py-10" key={subj.id} style={{paddingTop:subj.paddingTop}}>
+                    
                   <div className="md:w-[50%] mx-8 md:mx-auto ">
 
                       <Image src={subj.Image} alt={`Project ${subj.id}`}  className="md mx-auto"  />
@@ -39,4 +36,4 @@ const Strenght:React.FC<Material> = ({Tool}) => {
     );
 }
  
-export default Strenght;
+export default  Serve_content;

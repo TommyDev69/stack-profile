@@ -2,16 +2,16 @@
 
 import { useState } from "react";
 
-import Strenght from "./Strength";
+import Serve_content from "./Serve_content";
 
-const Department = () => {
+const Serv_Process = () => {
   const [service, setService] = useState([
     {
       id: 1,
       Image: require("../Image/Icon (1).png"),
       heading: "Development",
       content: "Create a platform with the best and coolest quality from us.",
-      paddingTop:'74px'
+      paddingTop: '74px',
     },
     {
       id: 2,
@@ -25,26 +25,7 @@ const Department = () => {
       Image: require("../Image/Icon (2).png"),
       heading: "Graphik Designer",
       content: "We provide Graphic Design services, with the best designers.",
-    },
-    {
-      id: 4,
-      Image: require("../Image/Icon (3).png"),
-      heading: "Motion Graphik",
-      content: "Create a platform with the best and coolest quality from us.",
-    },
-    {
-      id: 5,
-      Image: require("../Image/Icon (4).png"),
-      heading: "Photography",
-      content:
-        "We provide Photography services, and of course with the best quality.",
-    },
-    {
-      id: 6,
-      Image: require("../Image/Icon (5).png"),
-      heading: "Videography",
-      content: "Create a platform with the best and coolest quality from us.",
-    },
+    }
   ])
     return (
         <div className="md:pl-0 pdl-10 mt-32 ">
@@ -54,9 +35,9 @@ const Department = () => {
                 </h2>
             
        
-           <Strenght  Tool={service}/>
+           <Serve_content  Tool={service}/>
         </div>
     );
 };
 
-export default Department;
+export default Serv_Process;
