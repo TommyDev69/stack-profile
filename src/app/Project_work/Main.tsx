@@ -30,7 +30,7 @@ const Main = () => {
     return (  
         <div className="md:pl-0 phl-10 mt-32">
             <h1 className="text-white text-center text-3xl md:text-[45px] pb-14">
-                OUR AWESOME STRENGTH PORTFOLIO
+                OUR STRENGTH PORTFOLIO
             </h1>
             <Project_One Items={item_1} title={heading} />
             <Project_Two Ecomm_Sector={item_2} Sec_title={heading_2} />
