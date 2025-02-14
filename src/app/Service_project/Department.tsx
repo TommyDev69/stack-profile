@@ -8,10 +8,10 @@ const Department = () => {
   const [service, setService] = useState([
     {
       id: 1,
-      Image: require("../Image/Icon (1).png"),
+      Image: require("../Image/Icon(1).png"),
       heading: "Development",
       content: "Create a platform with the best and coolest quality from us.",
-      paddingTop:'80px'
+      paddingTop:'74px'
     },
     {
       id: 2,
