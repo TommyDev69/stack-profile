@@ -18,7 +18,7 @@ const NavbarContent = () => {
     <>
       <div className="md:flex hidden capitalize md:text-[22px] space-x-5 items-center text-white py-8">
         <Link href="/" className="font-bold">{content[0]}</Link>
-        <Link href="/service">{content[1]}</Link>
+        <Link href="/">{content[1]}</Link>
         <a href="#our-project">{content[2]}</a>
         <a href="#about-us">{content[3]}</a>
       </div>
