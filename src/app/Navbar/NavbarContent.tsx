@@ -4,7 +4,9 @@ import { useState } from 'react';
 import NavbarButton from "./NavbarButton";
 import NavbarIcon from "./NavbarIcon";
 
-import Link from 'next/link';
+// import Link from 'next/link';
+
+import Link from "next/link"; // Make sure you're using next/link for routing
 
 const NavbarContent = () => {
   const content = ["home", "service", "our project", "about us"];
@@ -18,7 +20,7 @@ const NavbarContent = () => {
     <>
       <div className="md:flex hidden capitalize md:text-[22px] space-x-5 items-center text-white py-8">
         <Link href="/" className="font-bold">{content[0]}</Link>
-        <Link href="/">{content[1]}</Link>
+        <Link href="/Department">{content[1]}</Link>
         <a href="#our-project">{content[2]}</a>
         <a href="#about-us">{content[3]}</a>
       </div>
