@@ -16,13 +16,13 @@ const ToggleBar = () => {
 
   return (
     <>
-    <nav className="flex w-[80%] mx-auto items-center justify-end">
+    <nav className="flex w-[80%] mx-auto items-center justiwfy-end">
       <div></div>
-        <div className="hidden  w-full justify-between md:flex">
+        <div className="hidden w-full justify-between md:flex">
 
-        <Content />
+            <Content />
         </div>
-        <div className="md:hidden">
+        <div className="md:hidden bg-black absolute top-8 right-6">
             <FontAwesomeIcon
                 icon={isMenuOpen ? faTimes : faBars} // Toggle icon based on state
                 className="text-green-400 w-10 h-10 cursor-pointer"
