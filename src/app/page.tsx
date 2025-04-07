@@ -21,8 +21,7 @@ function Home() {
       <Department />
       <MainContact />
       <Footer />
-      {/* <Service /> */}
-      {/* <Testing /> */}
+      
       
     </div>
   );
