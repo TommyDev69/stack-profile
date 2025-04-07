@@ -21,14 +21,12 @@ const ImageSlider = () => {
     { id: 1, Photo: proImage_one },
     { id: 2, Photo: proImage_two },
     { id: 3, Photo: proImage_three },
-    { id: 4, Photo: proImage_four},
+    { id: 4, Photo: proImage_four },
     { id: 5, Photo: proImage_five },
     { id: 6, Photo: proImage_six },
-    { id: 7, Photo: proImage_seven},
-    { id: 8, Photo: proImage_eight},
-    { id: 9, Photo: proImage_nine }
-
-
+    { id: 7, Photo: proImage_seven },
+    { id: 8, Photo: proImage_eight },
+    { id: 9, Photo: proImage_nine },
   ];
 
   useEffect(() => {
@@ -39,16 +37,15 @@ const ImageSlider = () => {
     return () => clearInterval(interval);
   }, []);
 
-  return(
-      <div className="!bg-blueBlack h-full">
+  return (
+    <div className="!bg-blueBlack h-full">
       <Navbar/>
-      <ImageWork ImageResult={ImagePhoto} currentIndex={currentIndex} />;
+        <ImageWork ImageResult={ImagePhoto} currentIndex={currentIndex} />;
       <div className="mt-[40%]">
-
-      <Main  />
+        <Main />
       </div>
-      </div>
-  )
+    </div>
+  );
 };
 
 export default ImageSlider;

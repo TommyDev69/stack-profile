@@ -39,36 +39,30 @@ const ImageWork: React.FC<ImageRef> = ({ ImageResult, currentIndex }) => {
       };   
 
   return (
-    <div className="bg-blueBlaeck  h-escreen">
-        <div className="flex items-center flex-col bg-blue Black h-scr een">
-            {ImageResult.map((displayImage, index) => {
-                // Calculate position for each image based on the current index
-                const positionKey = positionImage[(index - currentIndex + positionImage.length) % positionImage.length];
-                const position = imageVariant[positionKey as keyof typeof imageVariant];
 
-                return (
-                    <motion.img
-                        key={displayImage.id}
-                        src={displayImage.Photo.src}  // Use displayImage.Photo.src, not displayImage.Photo
-                        alt={`displayImage ${displayImage.id}`}
-                        initial="center"
-                        variants={ imageVariant }
-                        animate={position}
-                        transition={{ duration: 0.5 }}
-                        className="absolute md:w-[35%] w-[40%] md:top-[30%] top-[15%]  "
-                        // style={{ position:'absolute'}}
-                    />
+    <div className="flex relative items-center flex-col">
+      {ImageResult.map((displayImage, index) => {
+        // Calculate position for each image based on the current index
+        const positionKey = positionImage[(index - currentIndex + positionImage.length) % positionImage.length];
+        const position = imageVariant[positionKey as keyof typeof imageVariant];
 
-                
-                );
-            })}
-
-            
-            {/* <Maisn /> */}
-        </div>
-
-        
+        return (
+          <motion.img
+            key={displayImage.id}
+            src={displayImage.Photo.src}  // Use displayImage.Photo.src, not displayImage.Photo
+            alt={`displayImage ${displayImage.id}`}
+            initial="center"
+            variants={ imageVariant }
+            animate={position}
+            transition={{ duration: 0.5 }}
+            className="absolute md:w-[35%] w-[40%] md:etop-[30%] top2-[25%] mt-16 "
+            // style={{ position:'absolute'}}
+          />
+        );
+    })}
     </div>
+
+      
   );
 };
 
