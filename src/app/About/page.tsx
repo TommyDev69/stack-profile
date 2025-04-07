@@ -3,7 +3,7 @@ import Biodata from "./Biodata";
 
 const Page = () => {
     return ( 
-        <div className="bg-blueBlack ">
+        <div className="bg-blueBlack h-screen ">
              <Navbar />
             <Biodata />
         </div>
