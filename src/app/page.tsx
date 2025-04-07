@@ -4,7 +4,7 @@ import MainFeatures from "./feature_section/MainFeatures";
 import Footer from "./Footer/Footer";
 import MainHero from "./Hero_Section/MainHero";
 import Navbar from "./Navbar/Navbar";
-import NavbarContent from "./Navbar/NavbarContent";
+// import NavbarContent from "./Navbar/NavbarContent";
 import Testing from "./project_service/Testing";
 import Main from "./Project_work/Main";
 import Department from "./Service_project/Department";
@@ -14,7 +14,6 @@ function Home() {
   return (
     <div className="containerw-fluid bg-blueBlack">
       <Navbar />
-     
       <MainHero />
       <MainFeatures />
       <Main />
