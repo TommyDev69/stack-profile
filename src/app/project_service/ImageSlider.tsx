@@ -2,15 +2,15 @@
 
 import { useState, useEffect } from "react";
 import ImageWork from "./ImageWork";
-import proImage_one from "../../../public/work_9.jpg";
-import proImage_two from "../../../public/work_1.png";
-import proImage_three from "../../../public/work_3.png";
-import proImage_four from "../../../public/work_5.jpg";
-import proImage_five from "../../../public/work_2.png";
-import proImage_six from "../../../public/work_6.jpg";
-import proImage_seven from "../../../public/work_4.png";
-import proImage_eight from "../../../public/work_7.jpg";
-import proImage_nine from "../../../public/work_8.png";
+import proImage_one from "../../../public/photo/work_9.jpg";
+import proImage_two from "../../../public/photo/work_1.png";
+import proImage_three from "../../../public/photo/work_3.png";
+import proImage_four from "../../../public/photo/work_5.jpg";
+import proImage_five from "../../../public/photo/work_2.png";
+import proImage_six from "../../../public/photo/work_6.jpg";
+import proImage_seven from "../../../public/photo/work_4.png";
+import proImage_eight from "../../../public/photo/work_7.jpg";
+import proImage_nine from "../../../public/photo/work_8.png";
 import Main from "../Project_work/Main";
 import Navbar from "../Navbar/Navbar";
 
