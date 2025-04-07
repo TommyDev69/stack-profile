@@ -10,7 +10,9 @@ const NavbarToggle:FC<myDropdownMenu> = ({ isOpenMenu }) => {
         <div
         className={`${
           isOpenMenu ? "block" : "hidden"
-        } absolute w-[98.1%] left-0 right-0 top-full text-2xl py-10 mx-auto flex flex-col items-startpy-8 px-6 text-white space-y-6 font-bold sm:self-center drop-shadow-md shadow-inner shadow-white transition-all duration-300 ease-in-out transform ${
+        } absolute w-[98.1%] left-0 right-0 top-full text-2xl py-10 mx-auto 
+        flex flex-col items-startpy-8 px-6 text-white space-y-6 font-bold sm:self-center drop-shadow-md shadow-inner
+         shadow-white transition-all duration-300 ease-in-out transform ${
           isOpenMenu ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
         }`}
       >

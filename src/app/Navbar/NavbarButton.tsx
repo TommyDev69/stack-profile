@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState } from "react";
+// import NavbarIcon from "./NavbarIcon";
+// import ToggleBar from "./ToggleBar";
 
 // Your component code here
 
@@ -8,7 +10,10 @@ import React, { useState } from "react";
 const NavbarButton = () => {
     const [Info, setInfo] = useState("Info")
     return ( 
-        <a href="" className="hidden md:block py-2 px-0 md:px-12 rounded-full border-2 text-[24px] text-white ml-[30px]">{Info}</a>
+        <button className="  py-12 hidden md:block w bg-black ">
+            <a href="" className=" md:blvock hiddven  rounded-2xl border-2 px-6  text-[24px] text-white ">{Info}</a>
+            {/* <ToggleBar /> */}
+        </button>
      );
 }
  

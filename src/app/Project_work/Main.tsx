@@ -28,7 +28,7 @@ const Main = () => {
 
   
     return (  
-        <div className="md:pl-0 phl-10 mt-32">
+        <div className="md:pl-0 phl-10 mt-32 ">
             <h1 className="text-white text-center text-3xl md:text-[45px] pb-14">
                 OUR STRENGTH PORTFOLIO
             </h1>
