@@ -10,7 +10,7 @@ import React, { useState } from "react";
 const NavbarButton = () => {
     const [Info, setInfo] = useState("Info")
     return ( 
-        <button className="  py-12 hidden md:block w bg-black ">
+        <button className="  py-12 hidden md:block ">
             <a href="" className=" md:blvock hiddven  rounded-2xl border-2 px-6  text-[24px] text-white ">{Info}</a>
             {/* <ToggleBar /> */}
         </button>

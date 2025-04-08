@@ -36,15 +36,7 @@ const ToggleBar = () => {
         </div>
     )}
     </>
-    // <div className="  w-10 h-10 md:hidden block py-0 pr-e24">
-    //  
-      
-    //   {isMenuOpen && (
-    //     <div className="flex-wrap  bg-black basis-full p-6 rounded-lg z-50">
-    //       <ContentDisk /> {/* Properly close the ContNetwork component */}
-    //     </div>
-    //   )}
-    // </div>
+    
   );
 };
 
