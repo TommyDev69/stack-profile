@@ -22,7 +22,7 @@ const ToggleBar = () => {
 
             <Content />
         </div>
-        <div className="md:hidden bg-black absolute top-8 right-6">
+        <div className="md:hidden absolute top-8 right-6">
             <FontAwesomeIcon
                 icon={isMenuOpen ? faTimes : faBars} // Toggle icon based on state
                 className="text-green-400 w-10 h-10 cursor-pointer"
